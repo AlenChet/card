@@ -1,0 +1,23 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.card-text {
+  margin-top: 8px;
+  font-size: 0.875em;
+  color: #555;
+}
